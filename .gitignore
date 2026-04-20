@@ -1,1 +1,7 @@
 .gradle/
+
+# Ignore IntelliJ IDEA project files
+.idea
+
+# Ignore build output directories
+/build/
