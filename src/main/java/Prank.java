@@ -1,7 +1,7 @@
 class Prank {
 
     public static void main(String[] args) {
-        Prank prank = new Prank();
+        final Prank prank = new Prank();
         prank.isAPrank();
     }
 
