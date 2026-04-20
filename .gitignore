@@ -2,6 +2,10 @@
 
 # Ignore IntelliJ IDEA project files
 .idea
+.vscode
 
 # Ignore build output directories
 /build/
+
+/out/
+/bin/
