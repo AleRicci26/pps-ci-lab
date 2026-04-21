@@ -13,14 +13,14 @@ public class CounterTest {
 
     @Test
     public void counterShouldStartAtZero() {
-        assertEquals(0, counter.getValue());
+        assertEquals(0, this.counter.getValue());
     }
 
     @Test
     public void testIncrement() {
-        counter.increment();
-        counter.increment();
-        counter.increment();
-        assertEquals(3, counter.getValue());
+        this.counter.increment();
+        this.counter.increment();
+        this.counter.increment();
+        assertEquals(3, this.counter.getValue());
     }
 }
