@@ -1,4 +1,16 @@
-package main.java;
-
 public class Counter {
+
+    private int value;
+
+    public Counter() {
+        this.value = 0;
+    }
+
+    public void increment() {
+        this.value++;
+    }
+
+    public int getValue() {
+        return this.value;
+    }
 }
